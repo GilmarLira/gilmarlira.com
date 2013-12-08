@@ -1,0 +1,114 @@
+
+// Helper Mixins by Gilmar Lira
+// ///////////////////////////////////////////////////////////////
+
+@mixin highlight( $color: $color-highlight) {
+  background-color: $color !important;
+}
+
+
+@mixin outline( $color:  $color-purple ){
+  * { outline: 1px solid $color; }
+}
+
+
+
+
+// Helper Mixins by other Authors
+// ///////////////////////////////////////////////////////////////
+
+/* ==========================================================================
+
+   Buttons
+
+   ========================================================================== */
+$button-radius: 10px;
+
+@mixin button( $bg-color: $color-button, $color: $color-text, $radius: $button-radius ){
+  display:inline-block;
+  cursor:pointer;
+  padding: 0.5em 1em;
+  color: $color;
+  background-color: $bg-color;
+  border-radius: $radius;
+  border:0;
+  text-align: center;
+
+  @include transition(all .3s ease-in-out);
+  @include rhythm(0);
+  font-family: $primary-font;
+  letter-spacing: 1px;  
+  text-transform: uppercase;    
+
+  &:hover{
+    color: lighten( $color, 10% );
+    background-color: darken( $bg-color, 10% );
+  }
+  @include margins($before: 0, $after: 0);
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+
+   Vertical Rhythm and Modular Scale with Baseline Grid by Justin Metros
+   // inspired by www.gridlover.net
+
+   ========================================================================== */
+
+
+// Sass Exponent Mixin
+@function exponent($base, $exponent) {
+  $value: $base;
+  @if $exponent > 1 {
+    @for $i from 2 through $exponent {
+      $value: $value * $base;
+    }
+  }
+  @if $exponent < 1 {
+    @for $i from 0 through -$exponent {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+
+// Rhythm Mixin. Adheres to Baseline Grid.
+@mixin rhythm($scale, $before: 0, $after: 0) {
+  @if $scale == 0 and $before == 0 and $after == 0 {
+    font-size: $body-font-size;
+    line-height: $body-font-size * $body-line-height;
+  }
+  @else {
+    @if $scale == 0 {
+      font-size: $body-font-size;
+      line-height: $body-font-size * $body-line-height;
+    }
+    @else {
+      $new-font-size: round($body-font-size * exponent($scale-factor, $scale));
+      font-size: $new-font-size;
+      line-height: ceil($new-font-size / ($body-line-height * $body-font-size)) * $body-line-height * $body-font-size;
+    }
+    margin-top: $body-font-size * $body-line-height * $before;
+    margin-bottom: $body-font-size * $body-line-height * $after;
+  }
+}
+
+
+// Rhythm Mixin. Margins Only.
+@mixin margins($before: 0, $after: 0) {
+  margin-top: $body-font-size * $body-line-height * $before;
+  margin-bottom: $body-font-size * $body-line-height * $after;
+}
+
+
+// Rhythm Mixin. Padding Only.
+@mixin paddings($before: 0, $after: 0) {
+  padding-top: $body-font-size * $body-line-height * $before;
+  padding-bottom: $body-font-size * $body-line-height * $after;
+}

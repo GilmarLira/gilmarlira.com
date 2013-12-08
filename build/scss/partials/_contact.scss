@@ -1,0 +1,53 @@
+
+// Contact
+// ///////////////////////////////////////////////////////////////
+
+.contact{
+	@include outer-container;
+	@include paddings(2,2);
+
+	// background-color: $color-paper;
+	display:none;
+	overflow: hidden;
+
+	// aside{
+	// 	@include span-columns(4);
+	// 	@include margins(8,0);
+	// 	@include shift(1);
+
+	// 	padding-left:1rem;
+
+	// 	.email{ 
+	// 		@include rhythm(1);
+	// 		span{ margin: 0 .1em; }
+	// 	}
+	// }
+
+	.invite{
+		@include span-columns(6);
+		@include shift(1);
+		@include margins(3,1);
+		@include paddings(0,0);
+
+		padding-left: 1rem;
+
+		.email{ 
+			@include rhythm(2, 0, 2);
+
+			display: inline-block;
+			span{ margin: 0 .1em; }
+		}
+
+	}
+
+	.workspace_shot{
+		@include span-columns(10);
+		@include shift(1);
+		@include highlight(yellow);
+
+		height: 20rem;
+		background: url('../img/workspace_shot.jpg') no-repeat;
+	}
+
+
+}

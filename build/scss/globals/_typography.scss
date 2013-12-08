@@ -1,0 +1,72 @@
+
+// Typography
+// ///////////////////////////////////////////////////////////////
+
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|Anaheim|Roboto+Condensed);
+
+$primary-font:	'Economica';
+$secondary-font: 'PT Sans';
+
+
+$font-title		:bold 36px/1.0 "Economica", sans-serif;
+$font-subtitle	:normal 25px/1.2 "Economica", sans-serif;
+$font-body		:normal 16px/1.3 "Anaheim", sans-serif;
+
+
+$body-font-size           : 18px;
+$body-line-height         : 1.3 ;
+$scale-factor             : 1.414; // http://modularscale.com/
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $primary-font;	
+	color: $color-purple;
+}
+
+.tera 		{ @include rhythm(6, 1, 1);		}
+.mega		{ @include rhythm(5, 1, 1);  	}
+.alpha   	{ @include rhythm(4, 0, 1);  	}
+h1,.beta    { @include rhythm(3, 0, 1);  	}
+h2,.gamma   { @include rhythm(2, 0, 1);  	}
+h3,.delta   { @include rhythm(1, 0, 0);  	}
+h4,.epsilon { @include rhythm(0, 0, 0); 	}
+h5,.zeta    { @include rhythm(-1, 0, 0);	}
+p 			{ @include rhythm(0, 0, 1); 	}
+q 			{ font: $font-subtitle;	color: $color-pink;}
+
+h2{
+	font: $font-title;
+}
+
+h3{
+	font: $font-subtitle;
+}
+
+
+
+// $font-title-family			:"miso-bold";
+// $font-header-family			:"miso-light";
+// $font-subheader-family		:"miso-light";
+// $font-body-family 			:"miso-regular";
+
+// $font-title-size			:4.6875rem;
+// $font-header-size			:2.875rem;
+// $font-subheader-size		:1.5rem;
+// $font-body-size				:1rem;
+// $font-small-size			:.5rem;
+// $font-caption-size			:.44rem;
+
+// $font-title-line			:1.0;
+// $font-header-line			:1.0;
+// $font-subheader-line		:1.0;
+// $font-body-line				:1.0;
+// $font-small-line			:2.0;
+// $font-caption-line			:1.71;
+
+// $font-title				:4.6875rem/1.0 miso-bold, sans-serif;
+// $font-header			:2.875rem/1.0 miso-light, sans-serif;
+// $font-subheader			:1.5rem/1.0 miso-bold, sans-serif;
+// $font-body 				:1rem/1.0 miso-light, sans-serif;
+// $font-small				:0.75rem/1.2 miso-regular, sans-serif;
+// $font-caption			:0.4375rem/1.71 miso-regular, sans-serif;

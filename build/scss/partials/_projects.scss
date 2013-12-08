@@ -1,0 +1,70 @@
+
+// Project Gallery
+// ///////////////////////////////////////////////////////////////
+
+.projects{
+	@include outer-container;
+	@include paddings(2,2);
+	// @include outline(orange);
+
+	.project{
+		@include margins(0,2);
+		@include span-columns(12);
+
+		border-bottom: 1px dotted;
+		// border-top: 1px dotted;
+
+		.project_thumb{
+			@include span-columns(5);
+
+			height: 15rem;
+			padding-left: 1rem;
+
+			.thumb{			
+				display:block;
+				height: 15rem;
+				background: lighten($color-text, 55%);
+				border: 0px;
+				overflow: hidden;
+				text-align: center;
+
+				img{
+					padding-top: 1rem; 
+					height: 14rem;
+					}
+			}
+		}
+
+		.project_description{
+			@include span-columns(6);
+
+			padding-left: 1rem;
+
+			.title{
+				@include margins(3,1);
+
+				font: $font-title;
+
+				a{ 
+					color: $color-purple; 
+					&:hover{
+						color: $color-pink;
+					}
+				}
+			}
+
+			.subtitle{
+				@include margins(0, 1);
+
+				font: $font-subtitle;
+			}
+
+			.specs{
+				@include margins(0,0);
+				@include rhythm(0);
+
+				color: $color-green;
+			}
+		}
+	}
+}

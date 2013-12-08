@@ -1,0 +1,208 @@
+
+// Fullscreen project
+// ///////////////////////////////////////////////////////////////
+
+.fullscreen{
+	// * { @include outline(orange);}
+
+	@include outer-container;
+	@include margins(0,1);
+
+	display: none;
+
+	.project_nav{
+		@include span-columns(12);
+
+		overflow: hidden;
+		height: 3.5rem;
+		padding: .5rem 0;
+		background-color: $color-pink;
+		color: white;
+		font-family: $primary-font;
+		letter-spacing: 1px;	
+		text-transform: uppercase;		
+		color: white;
+		line-height: 1;
+
+
+		.project_list{
+			@include position(0 0 0 0);
+
+			display: inline-block;
+			width: 1600px;
+			height: 1rem;
+
+			.project_item{
+				@include button($color-pink, white, 5px);				
+
+				margin: 0 50px;
+
+				.project_images_list{
+					display:none;
+					text-align: center;
+
+					.project_images_item{
+						display: inline-block;
+						width: 10px;
+						height: 10px;
+						border-radius: 5px;
+						background-color: white;
+					}
+				}
+				
+				&.selected{
+					background-color: darken($color-pink, 10%);
+				}
+			}
+
+
+		}
+
+	}
+
+	.project_wrapper{
+		@include span-columns(12);
+		@include position(0 0 0 0);
+		// @include background(linear-gradient(white, lighten($color-purple, 50%)) no-repeat center / cover);
+
+		height: 60rem;
+		// background-color: lightgray;
+
+		.project_image_nav{
+			@include span-columns(12 of 12);
+			@include position(absolute, 35% 0 0 0);
+
+			z-index: 1;
+			color: white;
+			height: 144px;
+
+
+			.arrow{
+				fill: "none";
+				stroke: lighten($color-text, 45%);
+				stroke-width: 1;
+				stroke-linecap: round;
+				stroke-linejoin: round; 
+				stroke-miterlimit: 10;
+
+				&:hover{
+					cursor: pointer;
+					stroke: $color-pink;
+				}
+			}
+			.next{
+				@extend .arrow;
+				@include position(absolute, 0 0 0 90%);
+				// text-align: right;
+				width: 72px;
+			}
+
+			.prev{
+				@extend .arrow;
+				@include position(absolute, 0 90% 0 0);
+				width: 72px;
+			}
+		}
+	}
+
+	
+
+	.project{
+		@include span-columns(12 of 12);
+
+		display: none;
+		height: 60rem;
+
+		.project_images{
+			@include span-columns(12 of 12);
+			@include position;
+
+			height: 60rem;
+			overflow: hidden;
+
+			.project_img{
+				@include span-columns(12 of 12);
+				@include position(absolute, 0px 0 0 0);
+
+				height: 60rem;
+				float:left;
+				text-align: center;
+			}
+
+			.project_caption{
+				@include span-columns(4 of 12);
+				@include shift(4);
+				@include position(absolute, 0 0 2rem 0);
+
+				text-align: center;
+				// z-index: 2;				
+
+				.project_link{
+					@include button(rgba(0,0,0,0));
+				
+					padding-left: 3rem;
+					padding-right: 3rem;
+					border: 2px solid lighten($color-text, 20%);
+
+					&:hover{
+						color: $color-pink;
+						border: 2px solid lighten($color-pink, 10%);
+					}
+				}
+			}
+		}
+
+		// BART
+		// ///////////////////////////////////////////////////////////////
+
+		&#bart{
+			.project_img:nth-child(1){ @include background(url("../img/pro/bart/1.png") no-repeat center); }
+			.project_img:nth-child(2){ @include background(url("../img/pro/bart/2.png") no-repeat center); }
+			.project_img:nth-child(3){ @include background(url("../img/pro/bart/3.png") no-repeat center); }
+			.project_img:nth-child(4){ @include background(url("../img/pro/bart/4.png") no-repeat center); }
+			.project_img:nth-child(5){ @include background(url("../img/pro/bart/5.png") no-repeat center); }
+		}
+
+		&#shuttle{
+			.project_img:nth-child(1){ @include background(url("../img/pro/shuttle/1.png") no-repeat center); }
+			.project_img:nth-child(2){ @include background(url("../img/pro/shuttle/2.png") no-repeat center); }
+			.project_img:nth-child(3){ @include background(url("../img/pro/shuttle/3.png") no-repeat center); }
+			.project_img:nth-child(4){ @include background(url("../img/pro/shuttle/4.png") no-repeat center); }
+			.project_img:nth-child(5){ @include background(url("../img/pro/shuttle/5.png") no-repeat center); }
+			.project_img:nth-child(6){ @include background(url("../img/pro/shuttle/6.png") no-repeat center); }
+		}
+
+		&#threedee{
+			.project_img:nth-child(1){ @include background(url("../img/pro/3d/1.png") no-repeat center); }
+			.project_img:nth-child(2){ @include background(url("../img/pro/3d/2.png") no-repeat center); }
+			.project_img:nth-child(3){ @include background(url("../img/pro/3d/3.png") no-repeat center); }
+			.project_img:nth-child(4){ @include background(url("../img/pro/3d/4.png") no-repeat center); }
+		}
+
+		&#doce{
+			.project_img:nth-child(1){ @include background(url("../img/pro/doce/1.png") no-repeat center); }
+			.project_img:nth-child(2){ @include background(url("../img/pro/doce/2.jpg") no-repeat center); }
+			.project_img:nth-child(3){ @include background(url("../img/pro/doce/3.png") no-repeat center); }
+			.project_img:nth-child(4){ @include background(url("../img/pro/doce/4.png") no-repeat center); }
+			.project_img:nth-child(5){ @include background(url("../img/pro/doce/5.png") no-repeat center); }
+			.project_img:nth-child(6){ @include background(url("../img/pro/doce/6.png") no-repeat center); }
+			.project_img:nth-child(7){ @include background(url("../img/pro/doce/7.png") no-repeat center); }
+			.project_img:nth-child(8){ @include background(url("../img/pro/doce/8.png") no-repeat center); }
+			.project_img:nth-child(9){ @include background(url("../img/pro/doce/9.png") no-repeat center); }
+			.project_img:nth-child(10){ @include background(url("../img/pro/doce/10.jpg") no-repeat center); }
+		}
+
+		&#museum{
+			.project_img:nth-child(1){ @include background(url("../img/pro/museum/1.png") no-repeat center); }
+			.project_img:nth-child(2){ @include background(url("../img/pro/museum/2.png") no-repeat center); }
+			.project_img:nth-child(3){ @include background(url("../img/pro/museum/3.png") no-repeat center); }
+			.project_img:nth-child(4){ @include background(url("../img/pro/museum/4.png") no-repeat center); }
+			.project_img:nth-child(5){ @include background(url("../img/pro/museum/5.png") no-repeat center); }
+			.project_img:nth-child(6){ @include background(url("../img/pro/museum/6.png") no-repeat center); }
+			.project_img:nth-child(7){ @include background(url("../img/pro/museum/7.png") no-repeat center); }
+			.project_img:nth-child(8){ @include background(url("../img/pro/museum/8.png") no-repeat center); }
+
+		}
+	}
+	
+}
