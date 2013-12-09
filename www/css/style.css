@@ -634,13 +634,16 @@ body {
         margin-right: 0; }
       .about article .gilmar_description q {
         display: inline-block; }
+        .about article .gilmar_description q span {
+          display: inline-block;
+          width: 9px; }
     .about article .meta_info {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 14.70196%;
+      width: 23.23176%;
       margin-left: 8.5298%;
-      margin-top: 140.4px;
+      margin-top: 70.2px;
       margin-bottom: 0px;
       padding-left: 1rem; }
       .about article .meta_info:last-child {
@@ -649,8 +652,8 @@ body {
         display: inline-block;
         cursor: pointer;
         padding: 0.5em 1em;
-        color: white;
-        background-color: #403c50;
+        color: #7e7e7e;
+        background-color: rgba(0, 0, 0, 0);
         border-radius: 10px;
         border: 0;
         text-align: center;
@@ -666,13 +669,17 @@ body {
         text-transform: uppercase;
         margin-top: 0px;
         margin-bottom: 0px;
-        width: 100%;
-        margin-bottom: 1rem; }
+        border: 2px solid #b1b1b1;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-bottom: 1rem;
+        width: 100%; }
         .about article .meta_info a.portfolio:hover, .about article .meta_info a.resume:hover {
-          color: white;
-          background-color: #292633; }
+          color: #979797;
+          background-color: rgba(0, 0, 0, 0); }
         .about article .meta_info a.portfolio:hover, .about article .meta_info a.resume:hover {
-          background-color: #f05653; }
+          border-color: #f05653;
+          color: #f05653; }
 
 .contact {
   zoom: 1;

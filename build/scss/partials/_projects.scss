@@ -9,6 +9,9 @@
 		@include span-columns(12);
 		@include margins(1,0);
 		@include paddings(0,1);
+		@include media($small){
+
+		}
 
 		border-bottom: 1px dotted;
 

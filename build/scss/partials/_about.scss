@@ -20,24 +20,33 @@
 
 			q{
 				display: inline-block;
+
+				span{
+					display: inline-block;
+					width: 9px;
+				}
 			}
 		}
 
 		.meta_info{
-			@include span-columns(2 of 12);
+			@include span-columns(3 of 12);
 			@include shift(1);
-			@include margins(6, 0);
+			@include margins(3, 0);
 
 			padding-left: 1rem;
 
 			a.portfolio, a.resume{
-				@include button($color-purple, white, 10px);
+				@include button(rgba(0,0,0,0), lighten( $color-text, 10% ), 10px);
 
+				border: 2px solid lighten( $color-text, 30% );
+				padding-left: 2rem;
+				padding-right: 2rem;
+				margin-bottom: 1rem;				
 				width: 100%;
-				margin-bottom: 1rem;
 
 				&:hover{
-					background-color: $color-pink;
+					border-color: $color-pink;
+					color: $color-pink;
 				}	
 			}
 		}
