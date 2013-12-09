@@ -1,0 +1,59 @@
+
+// Nav
+// ///////////////////////////////////////////////////////////////
+
+.main_header{
+    @include outer-container;
+    @include paddings(.8,.8);
+    
+    background: $color-purple;
+    color: white;
+
+    .home{
+        @include span-columns(4);
+        @include position(.2rem 0 0 0);
+        @extend .delta;
+
+        line-height: 1;
+        font-weight: normal;
+        font-style: italic;
+        letter-spacing: 2px;
+        text-indent: 2rem;
+        text-transform: capitalize;
+        color: white;
+        white-space: nowrap;
+    }
+
+    a{
+        color: white;
+        border:0;
+
+        &:hover{
+            color: white;
+        }
+    }
+
+
+    .main_nav{
+        @include span-columns(7);
+        @include shift(1);
+
+        display: inline-block;
+        font-family: $primary-font;
+        letter-spacing: 1px;    
+        text-transform: uppercase;      
+        color: white;
+        line-height: 51px;
+        
+        ul{
+            padding-left: 1rem;
+
+            li{
+                @include span-columns(2 of 7);
+                @include button($color-purple, white, 10px);
+
+                &.selected{ background-color: darken( $color-purple, 10% ); }
+            }
+        }
+    }
+}

@@ -4,27 +4,31 @@
 
 .about{
 	@include outer-container;
-	@include paddings(2,2);
+	@include paddings(4,0);
 
 	display: none;
 	overflow: hidden;
-	// background-color: $color-paper;
 
 	article{
 		@include span-columns(12);
 
-		.meta_info{
-			@include span-columns(3 of 12);
+		.gilmar_description{
+			@include span-columns(6 of 12);
 			@include shift(1);
 
-			padding-left: 1rem;
+			padding-left:1rem;			
 
-
-			img{
-				// @include span-columns(3 of 4);			
-				@include fill-parent;
-				@include margins(0,1);
+			q{
+				display: inline-block;
 			}
+		}
+
+		.meta_info{
+			@include span-columns(2 of 12);
+			@include shift(1);
+			@include margins(6, 0);
+
+			padding-left: 1rem;
 
 			a.portfolio, a.resume{
 				@include button($color-purple, white, 10px);
@@ -34,29 +38,8 @@
 
 				&:hover{
 					background-color: $color-pink;
-					// border: 10px dotted $color-green;
-				}
-
-				
+				}	
 			}
-
-			p{ 
-				// @extend .delta;
-			}
-
-		}
-
-		.gilmar_description{
-			@include span-columns(6 of 12);
-			@include shift(1);
-			@include margins(3,0);
-
-			padding-left:1rem;			
-
-			q{
-				display: inline-block;
-			}
-
 		}
 	}
 }
