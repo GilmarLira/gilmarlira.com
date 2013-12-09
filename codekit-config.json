@@ -259,6 +259,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/www\/img\/gilmar_portrait.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/img\/gilmar_portrait.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/img\/gilmar_portrait.jpg",
+      "initialSize" : 3002249,
+      "fileType" : 4096
+    },
     "\/build\/scss\/libs\/bourbon\/functions\/_radial-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -270,17 +281,6 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_radial-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/www\/img\/gilmar_portrait.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/img\/gilmar_portrait.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/www\/img\/gilmar_portrait.jpg",
-      "initialSize" : 3002249,
-      "fileType" : 4096
     },
     "\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_radial-arg-parser.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -318,17 +318,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/www\/img\/pro\/museum\/7@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/img\/pro\/museum\/7@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/www\/img\/pro\/museum\/7@2x.png",
-      "initialSize" : 643787,
-      "fileType" : 8192
-    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transform.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -340,6 +329,17 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_transform.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/www\/img\/pro\/museum\/7@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/img\/pro\/museum\/7@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/img\/pro\/museum\/7@2x.png",
+      "initialSize" : 643787,
+      "fileType" : 8192
     },
     "\/build\/scss\/libs\/bourbon\/css3\/_radial-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -388,15 +388,6 @@
       "outputAbbreviatedPath" : "\/www\/js\/plugins.js",
       "fileType" : 64
     },
-    "\/www\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/www\/img\/pro\/3d\/3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -407,6 +398,15 @@
       "outputAbbreviatedPath" : "\/www\/img\/pro\/3d\/3.png",
       "initialSize" : 196424,
       "fileType" : 8192
+    },
+    "\/www\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/css\/style.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
     },
     "\/build\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -633,8 +633,8 @@
       "debugStyle" : 0
     },
     "\/www\/js\/libs\/jquery-1.10.1.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/www\/js\/libs\/jquery-1.10.1.min.js",
@@ -762,15 +762,15 @@
       "initialSize" : 100888,
       "fileType" : 8192
     },
-    "\/build\/scss\/libs\/neat\/functions\/_new-breakpoint.scss" : {
+    "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_timing-functions.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/functions\/_new-breakpoint.scss",
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_timing-functions.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_new-breakpoint.css",
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_timing-functions.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -786,18 +786,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_timing-functions.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_timing-functions.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_timing-functions.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/build\/scss\/globals\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -807,6 +795,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/css\/_typography.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/neat\/functions\/_new-breakpoint.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/functions\/_new-breakpoint.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_new-breakpoint.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -893,6 +893,17 @@
       "initialSize" : 110270,
       "fileType" : 8192
     },
+    "\/www\/img\/pro\/shuttle\/5.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/img\/pro\/shuttle\/5.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/img\/pro\/shuttle\/5.png",
+      "initialSize" : 256276,
+      "fileType" : 8192
+    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_animation.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -904,17 +915,6 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_animation.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/www\/img\/pro\/shuttle\/5.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/img\/pro\/shuttle\/5.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/www\/img\/pro\/shuttle\/5.png",
-      "initialSize" : 256276,
-      "fileType" : 8192
     },
     "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_transition-property-name.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1370,17 +1370,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/www\/js\/libs\/modernizr.custom.26916.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/js\/libs\/modernizr.custom.26916.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/www\/js\/libs\/modernizr.custom.26916-ck.js",
-      "fileType" : 64
-    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_backface-visibility.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1427,6 +1416,17 @@
       "outputAbbreviatedPath" : "\/www\/img\/pro\/doce\/2.jpg",
       "initialSize" : 55524,
       "fileType" : 4096
+    },
+    "\/www\/js\/libs\/modernizr.custom.26916.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/js\/libs\/modernizr.custom.26916.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/www\/js\/libs\/modernizr.custom.26916-ck.js",
+      "fileType" : 64
     },
     "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_linear-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1510,18 +1510,6 @@
       "initialSize" : 119589,
       "fileType" : 8192
     },
-    "\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_shape-size-stripper.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/build\/scss\/libs\/bourbon\/css3\/_user-select.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1531,6 +1519,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_user-select.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_shape-size-stripper.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1592,15 +1592,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/addons\/_size.scss" : {
+    "\/build\/scss\/libs\/neat\/grid\/_reset.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/addons\/_size.scss",
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_reset.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_size.css",
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_reset.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1628,15 +1628,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/neat\/grid\/_reset.scss" : {
+    "\/build\/scss\/libs\/bourbon\/addons\/_size.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_reset.scss",
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/addons\/_size.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_reset.css",
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_size.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1803,18 +1803,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transition.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transition.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_transition.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_font-family.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1836,6 +1824,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/css\/_contact.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transition.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transition.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_transition.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1874,18 +1874,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/_bourbon.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/_bourbon.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/css\/_bourbon.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/build\/scss\/libs\/bourbon\/_bourbon-deprecated-upcoming.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1895,6 +1883,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/css\/_bourbon-deprecated-upcoming.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/bourbon\/_bourbon.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/_bourbon.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/css\/_bourbon.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1945,6 +1945,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/www\/img\/pro\/museum\/4@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/img\/pro\/museum\/4@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/img\/pro\/museum\/4@2x.png",
+      "initialSize" : 809217,
+      "fileType" : 8192
+    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_html5-input-types.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1956,17 +1967,6 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_html5-input-types.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/www\/img\/pro\/museum\/4@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/img\/pro\/museum\/4@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/www\/img\/pro\/museum\/4@2x.png",
-      "initialSize" : 809217,
-      "fileType" : 8192
     },
     "\/build\/scss\/libs\/neat\/grid\/_shift.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2005,8 +2005,8 @@
       "debugStyle" : 0
     },
     "\/www\/js\/libs\/jquery.lettering-0.6.1.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/www\/js\/libs\/jquery.lettering-0.6.1.min.js",
@@ -2025,6 +2025,18 @@
       "outputAbbreviatedPath" : "\/www\/img\/pro\/3d\/4.png",
       "initialSize" : 216221,
       "fileType" : 8192
+    },
+    "\/build\/scss\/partials\/_nav.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/partials\/_nav.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/css\/_nav.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/build\/scss\/libs\/bourbon\/bourbon\/_bourbon-deprecated-upcoming.scss" : {
       "ignoreWasSetByUser" : 0,

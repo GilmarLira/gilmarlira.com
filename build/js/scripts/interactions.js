@@ -1,24 +1,33 @@
 $(document).ready(function(){
-	var width, count, current, $scope, $nav_item;
+	var width, count, current, $scope, $nav_item, duration;
 	current = 1;
 	width = 960;
+	duration = 300;
+
 
 	// Nav
 	// ///////////////////////////////////////////////////////////////
+	$(".home a").click(function(){
+		if( !$(".content_section").eq(0).is(":visible") ) {
+			$(".content_section").fadeOut(duration).delay(duration).eq(0).fadeIn(duration);
+		}
+	});
+
 	$(".main_nav li").click(function(){
-		$("section").eq($(this).index()).show().siblings("section").hide();
-		$(this).toggleClass("selected", true).siblings().toggleClass("selected", false);
+		if( !$(".content_section").eq($(this).index()+1).is(":visible") ) {
+			$(".content_section").fadeOut(duration).delay(duration).eq($(this).index()+1).fadeIn(duration);
+			$(this).toggleClass("selected", true).siblings().toggleClass("selected", false);
+		}
 	});
 
 	$("section.projects .project").click(function(){
-		$("section.fullscreen").show().siblings("section").hide();		
-		// $(".project_nav .project_item").eq($(this).index()).toggleClass("selected", true);
+		$(".content_section").fadeOut(duration).filter(".fullscreen").delay(duration).fadeIn(duration);		
 		$nav_item = $(".project_nav .project_item").eq($(this).index());
 		nav_focus( $nav_item );
 		$scope = $(".fullscreen .project").eq($(this).index());
 		$scope.show().siblings(".project").hide();		
 		count_images();
-	})
+	});
 		
 
 	// Project Nav
@@ -40,21 +49,18 @@ $(document).ready(function(){
 	function nav_focus($e){
 		$e.toggleClass("selected", true).siblings(".project_item").toggleClass("selected", false);;
 
-		var position = $e.position();
-		var particular_width = $e.width();
-		// console.log("left: "+position.left+" , top: "+position.top+" , width: "+particular_width);
-
-		// console.log($(this).parent());
-		$e.parent().animate({
-			left: 480 - (position.left + particular_width)
-		}, 500, function(){});
+		// var position = $e.position();
+		// var particular_width = $e.width();		
+		// $e.parent().animate({
+		// 	left: 480 - (position.left + particular_width)
+		// }, 500, function(){});
 	}
 
 
 	function count_images(){
 		count = $scope.find(".project_img").length;
 		reset();
-		console.log("count: "+count);
+		console.log("count: " + count);
 		console.log("current: " + current);
 	}
 
@@ -67,12 +73,6 @@ $(document).ready(function(){
 		current=1;
 	}
 
-
-	
-	// $(".project_img").css({
-	// 	left: width
-	// });
-	
 	function slide_left($element){
 		$element.animate({
 			left: "-=" + width

@@ -4,21 +4,22 @@
 
 .projects{
 	@include outer-container;
-	@include paddings(2,2);
-	// @include outline(orange);
 
 	.project{
-		@include margins(0,2);
 		@include span-columns(12);
+		@include margins(1,0);
+		@include paddings(0,1);
 
 		border-bottom: 1px dotted;
-		// border-top: 1px dotted;
+
+		&:last-child{
+			@include margins(1,2);
+		}
 
 		.project_thumb{
 			@include span-columns(5);
 
 			height: 15rem;
-			padding-left: 1rem;
 
 			.thumb{			
 				display:block;
