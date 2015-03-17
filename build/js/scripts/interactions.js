@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 	function count_images(){
 		count = $scope.find(".project_img").length;
-		if (count > 0){
+		if (count > 1){
 			$(".next").fadeIn();
 		}else{
 			$(".next").fadeOut();

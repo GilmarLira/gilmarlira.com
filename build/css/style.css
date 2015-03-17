@@ -373,7 +373,7 @@ body {
         text-transform: uppercase;
         margin-top: 0px;
         margin-bottom: 0px;
-        width: 12.5%;
+        width: 20%;
         padding: .25rem 0rem; }
         .fullscreen .project_nav .project_list .project_item:hover {
           color: #f48482;
@@ -467,7 +467,7 @@ body {
         width: 31.76157%;
         margin-left: 34.11922%;
         position: absolute;
-        bottom: 5%;
+        bottom: 10%;
         text-align: center;
         white-space: nowrap; }
         .fullscreen .project .project_images .project_caption:last-child {
@@ -503,22 +503,18 @@ body {
             color: #f05653;
             border: 2px solid #f48482; }
     .fullscreen .project#bart .project_img:nth-child(1) {
-      position: relative;
-      top: 20%;
-      right: 30px; }
-    .fullscreen .project#bart .project_img:nth-child(2) {
       background: url("../img/pro/bart/1.png") no-repeat 50% 30%;
       background: url("../img/pro/bart/1.png") no-repeat 50% 30%; }
-    .fullscreen .project#bart .project_img:nth-child(3) {
+    .fullscreen .project#bart .project_img:nth-child(2) {
       background: url("../img/pro/bart/2.png") no-repeat 50% 30%;
       background: url("../img/pro/bart/2.png") no-repeat 50% 30%; }
-    .fullscreen .project#bart .project_img:nth-child(4) {
+    .fullscreen .project#bart .project_img:nth-child(3) {
       background: url("../img/pro/bart/3.png") no-repeat 50% 30%;
       background: url("../img/pro/bart/3.png") no-repeat 50% 30%; }
-    .fullscreen .project#bart .project_img:nth-child(5) {
+    .fullscreen .project#bart .project_img:nth-child(4) {
       background: url("../img/pro/bart/4.png") no-repeat 50% 30%;
       background: url("../img/pro/bart/4.png") no-repeat 50% 30%; }
-    .fullscreen .project#bart .project_img:nth-child(6) {
+    .fullscreen .project#bart .project_img:nth-child(5) {
       background: url("../img/pro/bart/5.png") no-repeat 50% 30%;
       background: url("../img/pro/bart/5.png") no-repeat 50% 30%; }
     .fullscreen .project#shuttle .project_img:nth-child(1) {
@@ -545,10 +541,6 @@ body {
     .fullscreen .project#lettering .project_img:nth-child(2) {
       background: url("../img/pro/lettering/2.png") no-repeat 50% 30%;
       background: url("../img/pro/lettering/2.png") no-repeat 50% 30%; }
-    .fullscreen .project#knetik .project_img:nth-child(1) {
-      position: relative;
-      top: 20%;
-      right: 30px; }
     .fullscreen .project#threedee .project_img:nth-child(1) {
       background: url("../img/pro/3d/1.png") no-repeat 50% 30%;
       background: url("../img/pro/3d/1.png") no-repeat 50% 30%; }
@@ -561,9 +553,6 @@ body {
     .fullscreen .project#threedee .project_img:nth-child(4) {
       background: url("../img/pro/3d/4.png") no-repeat 50% 30%;
       background: url("../img/pro/3d/4.png") no-repeat 50% 30%; }
-    .fullscreen .project#thehexcode .project_img:nth-child(1) {
-      background: url("../img/pro/thehexcode/1.png") no-repeat 50% 30%;
-      background: url("../img/pro/thehexcode/1.png") no-repeat 50% 30%; }
     .fullscreen .project#doce .project_img:nth-child(1) {
       background: url("../img/pro/doce/1.png") no-repeat 50% 30%;
       background: url("../img/pro/doce/1.png") no-repeat 50% 30%; }
